@@ -8,15 +8,6 @@ export class ieWarning {
   init() {
     console.log("ieWarning init");
     this.createLightbox();
-    window.onmessage = (e) => {
-      const iframe_id = "engrid-iframe";
-
-      if (e.data.hasOwnProperty("frameHeight")) {
-        document.getElementById(
-          iframe_id
-        ).style.height = `${e.data.frameHeight}px`;
-      }
-    };
   }
   isIE() {
     const ua = window.navigator.userAgent;
