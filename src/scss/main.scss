@@ -17,6 +17,7 @@
     h2 {
       font-size: 26px;
       color: #444;
+      margin-top: 0;
       margin-bottom: 20px;
     }
     p {
@@ -30,6 +31,8 @@
         display: block;
         width: 100%;
         text-align: left;
+        text-decoration: none;
+        font-weight: normal;
         > img,
         svg {
           display: inline-block;
